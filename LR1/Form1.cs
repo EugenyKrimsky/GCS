@@ -129,7 +129,7 @@ namespace LR1
                             CountPoints++;
                         }
                         break;
-                    case 2: // второй вектор | мб надо case 2?
+                    case 3: // второй вектор | мб надо case 2?
                         {
                             g.DrawLine(DrawPen, ArPoints[2], ArPoints[3]);
                             DrawCubeSpline(DrawPen, ArPoints);
